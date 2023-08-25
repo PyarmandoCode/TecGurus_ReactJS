@@ -1,5 +1,7 @@
 import React from "react";
 import ReactDOM  from "react-dom/client";
+import axios from "axios";
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 
@@ -11,6 +13,7 @@ import Padrasto from "./Hijo_Padre/Padrasto";
 //import App from "./Rutas/App"
 //import App from "./Tareas/App"
 import  App from "./AutoMoviles/App"
+import { UserPage } from "./Pages/UserPage";
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"))
@@ -36,6 +39,6 @@ const root = ReactDOM.createRoot(document.getElementById("root"))
 
 root.render(
     <React.StrictMode>
-        <App />
+        <UserPage />
     </React.StrictMode>
 )
