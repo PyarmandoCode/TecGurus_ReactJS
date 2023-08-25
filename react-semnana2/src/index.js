@@ -1,12 +1,17 @@
 import React from "react";
 import ReactDOM  from "react-dom/client";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css'
+
 //import App from './Ciclo_Vida/montaje'
 import App2 from './Ciclo_Vida/desmontar'
 import App3 from './Ciclo_Vida_Full/app'
 import Parent from "./Padre_Hijo/Padre";
 import Padrasto from "./Hijo_Padre/Padrasto";
 //import App from "./Rutas/App"
-import App from "./Tareas/App"
+//import App from "./Tareas/App"
+import  App from "./AutoMoviles/App"
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"))
 
@@ -30,7 +35,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"))
 // )
 
 root.render(
-    <div>
+    <React.StrictMode>
         <App />
-    </div>
+    </React.StrictMode>
 )
