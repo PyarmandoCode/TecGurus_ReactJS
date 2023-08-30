@@ -1,13 +1,17 @@
-import {React ,Fragment} from 'react'
-import { UserPage } from './Pages/UserPage'
+import { React, Component } from 'react'
+import {Ex01} from "./Pokemon/Components/index";
 
 
-function App() {
-    return (
-        <Fragment>
-            <UserPage/>
-        </Fragment>
-    )
+class App extends Component {
+    render() {
+        return (
+            <div className='App'>
+                <Ex01 />
+            </div>
+        );
+
+    }
+
 }
 
 export default App;
