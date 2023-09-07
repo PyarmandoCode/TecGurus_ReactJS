@@ -43,9 +43,7 @@ const ApiComponent = () => {
                                 <Card.Img variant="top" src={item.imagen} alt={item.nombre} />
                                 <Card.Body>
                                     <Card.Title>Modelo:  {item.nombre}</Card.Title>
-                                    <Card.Text>#Puertas: {item.puertas}</Card.Text>
                                     <Card.Text>${ new Intl.NumberFormat('es-mx').format(item.precio)}</Card.Text>
-                                    <Card.Text>${ new Intl.NumberFormat('es-mx').format(item.preciodescuento)}</Card.Text>
                                     <Button variant="primary">Ver Detalle</Button>
                                 </Card.Body>
 

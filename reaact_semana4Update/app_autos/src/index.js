@@ -2,8 +2,8 @@ import React from "react";
 import  ReactDOM  from "react-dom/client";
 import 'bootstrap/dist/css/bootstrap.min.css';
 //import App from "./components/app";
-
-import App from "./components/busqueda";
+import Posts from "./components/autosfind";
+//import App from "./components/busqueda";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -11,7 +11,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
     <React.StrictMode>
-        <App/>
+        <Posts/>
     </React.StrictMode>
 )
   
